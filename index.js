@@ -52,7 +52,7 @@ const { limit } = require('./database/menu/limit*/
 const apivhtear = 'apivhtear';
 const apibarbar = 'apibarbar';
 const tobzkey = 'apitobz';
-const BotName = '꧁☬デ❍多ቾ乙ቾ₦☬꧂ bot'; 
+const BotName = 'デ❍多ቾ乙ቾ₦ bot'; 
 const instagram = 'http://www.instagram.com/'; 
 const aktif = '08:00 - 22:00';
 const vcard = 'BEGIN:VCARD\n'
@@ -61,10 +61,10 @@ const vcard = 'BEGIN:VCARD\n'
             + 'ORG:Lexa;\n' // Nama bot
             + 'TEL;type=CELL;type=VOICE;waid=558688275801:+55 8688275801\n' //Nomor whatsapp kamu
             + 'END:VCARD'
-prefix = '.','!','#'
+prefix = '!'
 blocked = []
 limitawal = '999999999'
-cr = '*꧁☬デ❍多ቾ乙ቾ₦☬꧂*'
+cr = '*デ❍多ቾ乙ቾ₦*'
 
 /*********** LOAD FILE ***********/
 const _leveling = JSON.parse(fs.readFileSync('./database/group/leveling.json'))
@@ -304,7 +304,7 @@ async function starts() {
 			const mod = [ownerNumber,"558688275801@s.whatsapp.net"]//ubah nomor lo
 			const adminbotnumber = ["558688275801@s.whatsapp.net"]//ubah nomor lo
 			const frendsowner = ["558688275801@s.whatsapp.net"]//ubah nomor lo
-			const premium = ["558688275801@s.whatsapp.net","15136766782@s.whatsapp.net"] 
+			const premium = ["558688275801@s.whatsapp.net","15136766782@s.whatsapp.net","558981427448@s.whatsapp.net","12792033668@s.whatsapp.net","5514991357606@s.whatsapp.net","558981246187@s.whatsapp.net","15135974358@s.whatsapp.net","19252046906@s.whatsapp.net","557182198257@s.whatsapp.net","556999732506@s.whatsapp.net"] 
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
