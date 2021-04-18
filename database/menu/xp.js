@@ -1,6 +1,6 @@
 const xp = (prefix, botName, ownerName) => {
         return `
-「 *${botName}* 」
+「 *${TOBIZIN}* 」
 
 ◪ *INFO*
   ❏ Prefix: 「  ${prefix}  」

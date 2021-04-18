@@ -24,6 +24,7 @@ ____██_____██
 ╠══💣〘 MENU 〙💣══
 ║
 ║🐊 *${prefix}figu*
+║🐊 *${prefix}txtfig*
 ║🐊 *${prefix}toimg*
 ║🐊 *${prefix}darkjokes (memes aleatórios)*
 ║🐊 *${prefix}memeindo*
@@ -230,6 +231,8 @@ ____██_____██
 ║
 ║ *NOME: ꧁☬デ❍多ቾ乙ቾ₦☬꧂*
 ║ *WPP: wa.me/+558688275801*
+║ *YT:youtube.com/channel/UCIrqmPMH60G2afNmSrT_B0A*
+║ *Instagram:www.instagram.com/invites/contact/?i=1b5qm4hksk3ul&utm_content=lu6hizd*
 ║
 ║  *"base do lindo (DARK BOT 4.0)🐊🚩*
 ║  *"kiba não xereka"*
