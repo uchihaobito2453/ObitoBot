@@ -47,7 +47,7 @@ const lolis = require('lolis.life')
 const loli = new lolis()
 const welkom = JSON.parse(fs.readFileSync('./src/welkom.json'))
 const samih = JSON.parse(fs.readFileSync('./src/simi.json'))
-/*const { xp } = require('./database/menu/xp')
+const { xp } = require('./database/menu/xp')
 const { limit } = require('./database/menu/limit*/
 const apivhtear = 'apivhtear';
 const apibarbar = 'apibarbar';
@@ -521,7 +521,7 @@ if (text.includes("placa"))
 		}, 1000)
 		setTimeout( () => {
 			client.updatePresence(from, Presence.composing)
-			reply("5 segundo KKKKKKKK tchau otário 😔🤙")
+			reply("5 segundo KKKKKKKK tchau otário ??🤙")
 		}, 0)
 	}
 	
@@ -2453,7 +2453,7 @@ break
 					teks += `│+ Total de usuários : ${user.length}\n╰──────*「 *TOBIZIN* 」*────`
 					 client.sendMessage(from, teks.trim(), extendedText, {quoted: mek, contextInfo: {"mentionedJid": user}})
 					break
-				case 'txtfig':
+				case 'tfs':
 						if (!isGroup) return reply(mess.only.group)
 						if (args.length < 0) return reply('Cadê o texto, hum?')
 						var txt = encodeURI(body.slice(4))
@@ -3197,7 +3197,7 @@ break
 								client.sendMessage(from, fs.readFileSync(ranw), sticker, {quoted: mek})
 							})
 						})
-					/*} else if ((isMedia || isQuotedImage) && colors.includes(args[0])) {
+					} else if ((isMedia || isQuotedImage) && colors.includes(args[0])) {
 						const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek
 						const media = await client.downloadAndSaveMediaMessage(encmedia)
 						ran = getRandom('.webp')
@@ -3217,7 +3217,7 @@ break
 							})
 							.addOutputOptions([`-vcodec`,`libwebp`,`-vf`,`scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=${args[0]}@0.0, split [a][b]; [a] palettegen=reserve_transparent=off; [b][p] paletteuse`])
 							.toFormat('webp')
-							.save(ran)*/
+							.save(ran)
 					} else {
 						reply(`Envie fotos com legendas *.f* ou marque uma imagem que já foi enviada`)
 					}

@@ -4,13 +4,19 @@ const help = (prefix) => {
 *꧁☬デ❍多ቾ乙ቾ₦☬꧂ BOT*
 <══════════════════════>
 
-__█████████  ● ᏴϴͲ●ᎷᎬΝႮ●         
-__█▄█████▄█   *DONO*    : ꧁☬デ❍多ቾ乙ቾ₦☬꧂
-__█▼▼▼▼▼█ 
-_██ᏴϴͲ Ꮩ5.0██▌ 
-__█▲▲▲▲▲█ 
-__█████████ 
-____██_____██
+        ● ᏴϴͲ●ᎷᎬΝႮ● 
+        
+ *DONO* : ꧁☬デ❍多ቾ乙ቾ₦☬꧂
+ *WPP: wa.me/+558688275801*
+ *YT: youtube.com/channel/UCIrqmPMH60G2afNmSrT_B0A*
+ *Instagram: www.instagram.com/invites/contact/?i=1b5qm4hksk3ul&utm_content=lu6hizd*
+          
+ ╭╮╮╱▔▔▔▔╲╭╭╮ 
+ ╰╲╲▏▂╲╱▂▕╱╱╯
+ ┈┈╲▏▇▏▕▇▕╱┈┈
+ ┈┈╱╲▔▕▍▔╱╲┈┈ 
+╭╱╱ ▕╋╋╋╋▏╲╲╮
+ ╰╯╯┈╲▂▂╱┈╰╰
 
 ┌─────────❶.❷────────
 ║〘 INFORMAÇÕES 〙
@@ -24,7 +30,7 @@ ____██_____██
 ╠══💣〘 MENU 〙💣══
 ║
 ║🐊 *${prefix}figu*
-║🐊 *${prefix}txtfig*
+║🐊 *${prefix}tfs (Faz figs com letra colorida)*
 ║🐊 *${prefix}toimg*
 ║🐊 *${prefix}darkjokes (memes aleatórios)*
 ║🐊 *${prefix}memeindo*
@@ -231,8 +237,8 @@ ____██_____██
 ║
 ║ *NOME: ꧁☬デ❍多ቾ乙ቾ₦☬꧂*
 ║ *WPP: wa.me/+558688275801*
-║ *YT:youtube.com/channel/UCIrqmPMH60G2afNmSrT_B0A*
-║ *Instagram:www.instagram.com/invites/contact/?i=1b5qm4hksk3ul&utm_content=lu6hizd*
+║ *YT: youtube.com/channel/UCIrqmPMH60G2afNmSrT_B0A*
+║ *Instagram: www.instagram.com/invites/contact/?i=1b5qm4hksk3ul&utm_content=lu6hizd*
 ║
 ║  *"base do lindo (DARK BOT 4.0)🐊🚩*
 ║  *"kiba não xereka"*
