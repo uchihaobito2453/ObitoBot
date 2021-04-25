@@ -750,8 +750,9 @@ if (text.includes("placa"))
 			switch(command) {
 				case 'help':
 				case 'menu':
-					client.sendMessage(from, help(prefix), text)
-					break
+                    putagg = await getBuffer(`https://i.ibb.co/bHpQ6z5/IMG-20210424-WA0265.jpg`)
+                    client.sendMessage(from, putagg, image, {quoted: mek, caption: help(prefix, pushname2, time)})
+                    break
 					case 'bala':
                    anu = await fetchJson(`https://api-gdr.herokuapp.com/api/nekohentai`)
            foto = await getBuffer(anu.result) 

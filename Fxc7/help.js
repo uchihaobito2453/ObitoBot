@@ -1,4 +1,4 @@
-// menu fitur bot
+ menu fitur bot
 const help = (prefix, instagram, yt, name, pushname2, user, limitt, uptime, jam, tanggal) => { 
 	return `
 
@@ -320,7 +320,7 @@ DI SITU ADA TUTORIAL JADI BOT
 
 exports.help = help
 
-// penghitung aktif bot
+ penghitung aktif bot
 function kyun(seconds){
   function pad(s){
     return (s < 10 ? '0' : '') + s;
@@ -331,7 +331,7 @@ function kyun(seconds){
   return `*${pad(hours)} Jam ${pad(minutes)} Menit ${pad(seconds)} Detik*`
 }
 
-// donasi menu
+ donasi menu
 const donasi = (name) => { 
 	return `       
 ╭─────「 *DONASI SEIKHLASNYA* 」
@@ -346,7 +346,7 @@ Untuk Kelangsungan Hidup Bot Karna Kuota Mahal:'
 }
 exports.donasi = donasi
 
-// bahasa list
+ bahasa list
 const bahasa = (prefix) => {
 return `
 List Bahasa Untuk Command *${prefix}tts*
@@ -406,7 +406,7 @@ List Bahasa Untuk Command *${prefix}tts*
 }
 exports.bahasa = bahasa
 
-// Limit
+ Limit
 const limitend = (pushname2) => {
         return`*maaf ${pushname2} limit hari ini habis*\n*limit di reset setiap jam 12:00 WIB TENGAH MALAM*`
 }
