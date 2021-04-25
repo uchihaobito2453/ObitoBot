@@ -752,6 +752,76 @@ if (text.includes("placa"))
 				case 'menu':
 					client.sendMessage(from, help(prefix), text)
 					break
+					case 'bala':
+                   anu = await fetchJson(`https://api-gdr.herokuapp.com/api/nekohentai`)
+           foto = await getBuffer(anu.result) 
+                   client.sendMessage(from, foto, image, {quoted: mek})
+                    break
+					case 'agua':
+					if (args.length < 1) return reply(mess.blank)
+					anaa = body.slice(5)
+					reply('espere')
+					anu = await fetchJson(`https://mistic-api-br.herokuapp.com/api/ocean?text=${anaa}`, {method: 'get'})
+             buffer = await getBuffer(anu.result)
+					client.sendMessage(from, buffer, image, {caption: 'neon', quoted: mek})
+					break
+                    case 'battle':
+					       gh = body.slice(7)
+                    p1 = gh.split("|")[0];
+                    p2 = gh.split("|")[1];
+					if (args.length < 1) return reply('Cadê o texto, hum')
+					reply('espere')
+					anu = await fetchJson(`https://mistic-api-br.herokuapp.com/api/bf?text=${p1}&text2=${p2}`, {method: 'get'})
+					buffer = await getBuffer(anu.result)
+					client.sendMessage(from, buffer, image, {quoted: mek})
+					break
+                    case 'darkneon':
+                    case 'candlemug':
+                    case 'lovemsg':
+                    case 'mugflower':
+                    case 'narutobanner':
+                    case 'paperonglass':
+                    case 'romancetext':
+                    case 'shadowtext':
+                    case 'underwater':
+                    case 'hpotter':
+                    case 'woodblock':
+                if (!isRegistered) return reply( ind.noregis())
+				if (isLimit(sender)) return reply(ind.limitend(pusname))
+				if (isBanned) return reply(ind.baned())
+                    if (args.length == 0) return reply(`Usage: ${prefix + command} text\nContoh: ${prefix + command} akira`)
+                    txt = args.join(" ")
+                    reply(ind.wait())
+                    buffer = await getBuffer(`https://videfikri.com/api/textmaker/${command}/?text=${txt}`)
+                    akira.sendMessage(from, buffer, image, {quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg", "caption": "*prontinho...*", "fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=", "fileLength": "28777", "height": 1080, "width": 1079, "mediaKey": "vXmRR7ZUeDWjXy5iQk17TrowBzuwRya0errAFnXxbGc=", "fileEncSha256": "sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG/CyRY=", "directPath": "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69", "mediaKeyTimestamp": "1610993486", "jpegThumbnail": fs.readFileSync('akiraganz/fake.jpg')} } }, caption: 'Aqui está o resultado mano...'})
+					case 'minelogo':
+				  user.push(sender) 
+                   if (isBanned) return reply(mess.only.benned)    
+                   if (isLimit(sender)) return reply(limitend(pushname2))
+                  	if (args.length < 1) return reply("Coloque um texto na frente humm")
+					if (args.length < 1) return reply(mess.blank)
+					teks = body.slice(10)
+					if (teks.length > 10) return reply('O texto é longo, até 10 caracteres')					
+					buffer = await getBuffer(`https://icateram.sirv.com/20210416_181028.jpg?text.0.text=${teks}&text.0.position.x=-35%25&text.0.position.y=-35%25&text.0.size=30&text.0.color=ffffff&text.0.font.family=VT323&text.0.background.color=ff0000&text.0.outline.color=00ff03&text.0.outline.width=3&text.0.outline.blur=5`)
+					client.sendMessage(from, buffer, image, {quoted: mek, caption: `➠ _minelogo_`})
+					break
+					case 'hidetag2':
+					if (!isGroup) return reply(mess.only.group)
+					if (!isadminbot) return reply('Quem é Você?')
+					var value = body.slice(9)
+					var group = await client.groupMetadata(from)
+					var member = group['participants']
+					var mem = []
+					member.map( async adm => {
+					mem.push(adm.id.replace('c.us', 's.whatsapp.net'))
+					})
+					var options = {
+					text: value,
+					contextInfo: { mentionedJid: mem },
+					quoted: mek
+					}
+					client.sendMessage(from, options, text)
+					break
 				case 'help1':
 				case 'menu1':
 					client.sendMessage(from, help1(prefix), text)
